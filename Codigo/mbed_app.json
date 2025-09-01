@@ -1,0 +1,9 @@
+{
+    "target_overrides": {
+        "*": {
+            "lwip.ipv6-enabled": true,
+            "lwip.ipv4-enabled": false,
+            "target.network-default-interface-type": "ETHERNET"
+        }
+    }
+}
